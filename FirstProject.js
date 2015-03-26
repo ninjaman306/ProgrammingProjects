@@ -1,7 +1,3 @@
-var i = 10
-
-var spam = 1
-
 var slaying = true
 
 var youHit = Math.floor(Math.random() * 3)
