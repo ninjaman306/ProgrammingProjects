@@ -16,7 +16,7 @@ if (prompt_1 === true) {
           alert("You scraped the dragon");
           totalDamage += damageThisRound;
                if (totalDamage >= 4) {
-                  alert("You joined killed the dragon!");
+                  alert("You killed the dragon!");
                  slaying = false
               } else {
                    youHit = Math.floor(Math.random() * 2)
@@ -27,3 +27,9 @@ if (prompt_1 === true) {
       }
     }
 } 
+else {
+    alert("You slowly lose the will to live as your desire grows more and more, \
+but you refuse to quench it.")
+    alert("Also you are totally lame.")
+}
+
